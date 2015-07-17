@@ -1,0 +1,38 @@
+.fixin-drop-element, .fixin-drop-element:after, .fixin-drop-element:before {
+    box-sizing: border-box;
+}
+
+.fixin-drop-element *, .fixin-drop-element *:after, .fixin-drop-element *:before {
+    box-sizing: inherit;
+}
+
+.fixin-drop-element {
+    position: absolute;
+    display: none;
+}
+
+.fixin-drop-element.fixin-drop-open {
+    display: block;
+}
+
+.fixin-drop-element.fixin-drop-theme-basic {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*.fixin-drop-element.fixin-drop-theme-basic .fixin-drop-content {*/
+    /*-webkit-border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*-ms-border-radius: 5px;*/
+    /*-o-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+    /*-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);*/
+    /*-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);*/
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);*/
+    /*font-family: inherit;*/
+    /*background: #eeeeee;*/
+    /*color: #444444;*/
+    /*padding: 1em;*/
+    /*font-size: 1.1em;*/
+    /*line-height: 1.5em;*/
+/*}*/

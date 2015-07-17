@@ -1,0 +1,19 @@
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon, .inner-addon .fa {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon, .left-addon .fa  { left:  0px;}
+.right-addon .glyphicon, .right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input.form-control, .left-addon input[type=text] { padding-left:  30px; }
+.right-addon input.form-control, .right-addon input[type=text] { padding-right: 30px; }
