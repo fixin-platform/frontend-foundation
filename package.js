@@ -10,8 +10,8 @@ var fs = Npm.require("fs");
 eval(fs.readFileSync("./packages/autopackage.js").toString());
 Package.onUse(function(api) {
   addFiles(api, description.name, getDefaultProfiles());
-  api.use(["meteor-platform", "coffeescript", "stylus", "mquandalle:jade@0.4.1", "underscore", "jquery"]);
-  api.imply(["meteor-platform", "coffeescript", "stylus", "mquandalle:jade", "underscore", "jquery"]);
+  api.use(["meteor-platform", "coffeescript", "stylus", "mquandalle:jade@0.4.1", "underscore", "jquery", "matb33:collection-hooks@0.7.11"]);
+  api.imply(["meteor-platform", "coffeescript", "stylus", "mquandalle:jade", "underscore", "jquery", "matb33:collection-hooks"]);
   api.export([
     "Foreach",
     "Models",
