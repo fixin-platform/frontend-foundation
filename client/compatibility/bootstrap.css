@@ -6373,7 +6373,8 @@ input[type="checkbox"]:disabled:checked:after,
   color: #fff;
 }
 .badge {
-  padding: 3px 6px 5px;
+  /*padding: 3px 6px 5px;*/
+  font-weight: 700;
 }
 .progress {
   position: relative;
