@@ -16,5 +16,5 @@ secure = (handler) ->
     if Meteor.userId()
       handler.apply(@, arguments)
     else
-      $(Foreach.document.body).find("#loginPopup").modal("show")
+      $(Spire.document.body).find("#loginPopup").modal("show")
 

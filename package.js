@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.use(["meteor-platform", "coffeescript", "stylus", "mquandalle:jade@0.4.1", "underscore", "jquery", "matb33:collection-hooks@0.7.11"]);
   api.imply(["meteor-platform", "coffeescript", "stylus", "mquandalle:jade", "underscore", "jquery", "matb33:collection-hooks"]);
   api.export([
-    "Foreach",
+    "Spire",
     "Models",
     "Collections",
     "Transformations",

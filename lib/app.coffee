@@ -1,14 +1,14 @@
-Foreach = {}
+Spire = {}
 
-Foreach.strval = (value) -> value + ""
-Foreach.intval = (value) -> parseInt(value, 10) or 0
-Foreach.floatval = (value) -> parseFloat(value) or 0
+Spire.strval = (value) -> value + ""
+Spire.intval = (value) -> parseInt(value, 10) or 0
+Spire.floatval = (value) -> parseFloat(value) or 0
 
-Foreach.isDebug = Meteor.settings.public.isDebug
+Spire.isDebug = Meteor.settings.public.isDebug
 holy = {shit: !!~0} # for special occasions
 
 object = if typeof(window) != "undefined" then window else GLOBAL
-object.isDebug = Foreach.isDebug
+object.isDebug = Spire.isDebug
 if typeof(console) != "undefined" && console.log && _.isFunction(console.log)
   if not cl? then cl = _.bind(console.log, console)
   if not ct? then ct = _.bind(console.time, console)
