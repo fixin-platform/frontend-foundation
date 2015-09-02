@@ -11,10 +11,10 @@ editor = (method) -> ->
   method.apply(@, arguments)
 
 isAdmin = (userId) ->
-  userId and Users.findOne(userId)?.isAdmin
+  userId and Meteor.users.findOne(userId)?.isAdmin
 
 isEditor = (userId) ->
-  userId and Users.findOne(userId)?.isEditor
+  userId and Meteor.users.findOne(userId)?.isEditor
 
 introspect = (func) ->
   return ->

@@ -1,7 +1,7 @@
 var description = {
   summary: "Frontend Foundation",
   version: "1.0.0",
-  name: "frontend-foundation"
+  name: "foundation"
 };
 Package.describe(description);
 
