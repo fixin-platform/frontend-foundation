@@ -35,6 +35,7 @@ Package.onUse(function(api) {
     "secure",
     "admin",
     "editor",
+    "debugOrAdmin",
     "isAdmin",
     "isEditor",
     "introspect"
